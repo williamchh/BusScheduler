@@ -1,0 +1,10 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Stop</label>
+        <input type="text" 
+        name="text" id="text" 
+        [(ngModel)]="code"
+        placeholder="Add Stop" />
+    </div>
+    <input type="submit" value="Submit" class="btn-block btnSearch ">
+</form>  

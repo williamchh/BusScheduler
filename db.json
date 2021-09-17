@@ -1,0 +1,895 @@
+{
+  "Stop": [
+    {
+      "id": "1",
+      "code": "A1",
+      "sequence": -1
+    },
+    {
+      "id": "2",
+      "code": "A2",
+      "sequence": -1
+    },
+    {
+      "id": "3",
+      "code": "A3",
+      "sequence": -1
+    },
+    {
+      "id": "4",
+      "code": "A4",
+      "sequence": -1
+    },
+    {
+      "id": "5",
+      "code": "A5",
+      "sequence": -1
+    },
+    {
+      "id": "6",
+      "code": "A6",
+      "sequence": -1
+    },
+    {
+      "id": "7",
+      "code": "B1",
+      "sequence": -1
+    },
+    {
+      "id": "8",
+      "code": "B2",
+      "sequence": -1
+    },
+    {
+      "id": "9",
+      "code": "B3",
+      "sequence": -1
+    },
+    {
+      "id": "10",
+      "code": "B4",
+      "sequence": -1
+    },
+    {
+      "id": "11",
+      "code": "B5",
+      "sequence": -1
+    },
+    {
+      "id": "12",
+      "code": "B6",
+      "sequence": -1
+    },
+    {
+      "id": "13",
+      "code": "C1",
+      "sequence": -1
+    },
+    {
+      "id": "14",
+      "code": "C2",
+      "sequence": -1
+    },
+    {
+      "id": "15",
+      "code": "C3",
+      "sequence": -1
+    },
+    {
+      "id": "16",
+      "code": "C4",
+      "sequence": -1
+    },
+    {
+      "id": "17",
+      "code": "C5",
+      "sequence": -1
+    },
+    {
+      "id": "18",
+      "code": "C6",
+      "sequence": -1
+    },
+    {
+      "code": "A7",
+      "id": "8yU661l",
+      "sequence": -1
+    },
+    {
+      "code": "B7",
+      "id": "1Lwv4BN",
+      "sequence": -1
+    },
+    {
+      "code": "A8",
+      "sequence": -1,
+      "id": "bkCdcU2"
+    },
+    {
+      "code": "A9",
+      "sequence": -1,
+      "id": "nwfIPGG"
+    },
+    {
+      "code": "B8",
+      "sequence": -1,
+      "id": "cWXkuUJ"
+    },
+    {
+      "code": "C7",
+      "sequence": -1,
+      "id": "UWDpBRj"
+    },
+    {
+      "code": "B9",
+      "sequence": -1,
+      "id": "UD3z9Qg"
+    },
+    {
+      "code": "C8",
+      "sequence": -1,
+      "id": "AtbRf8J"
+    },
+    {
+      "code": "C9",
+      "sequence": -1,
+      "id": "jx7iaVr"
+    },
+    {
+      "code": "D1",
+      "sequence": -1,
+      "id": "F9bYrSq"
+    }
+  ],
+  "Route": [
+    {
+      "routeName": "North 2",
+      "stops": [
+        {
+          "code": "A1",
+          "sequence": 1
+        },
+        {
+          "code": "B1",
+          "sequence": 2
+        },
+        {
+          "code": "C1",
+          "sequence": 3
+        },
+        {
+          "code": "C6",
+          "sequence": 4
+        },
+        {
+          "code": "A7",
+          "sequence": 5
+        }
+      ],
+      "id": "IRnLWeQ"
+    },
+    {
+      "routeName": "North 1",
+      "stops": [
+        {
+          "code": "A7",
+          "sequence": 1
+        },
+        {
+          "code": "C6",
+          "sequence": 2
+        },
+        {
+          "code": "C5",
+          "sequence": 3
+        },
+        {
+          "code": "C4",
+          "sequence": 4
+        },
+        {
+          "code": "B5",
+          "sequence": 5
+        },
+        {
+          "code": "B6",
+          "sequence": 6
+        },
+        {
+          "code": "A3",
+          "sequence": 7
+        }
+      ],
+      "id": "GQYDksg"
+    },
+    {
+      "routeName": "South 1",
+      "stops": [
+        {
+          "code": "A9",
+          "sequence": 1
+        },
+        {
+          "code": "A8",
+          "sequence": 2
+        },
+        {
+          "code": "C4",
+          "sequence": 3
+        },
+        {
+          "code": "C5",
+          "sequence": 4
+        },
+        {
+          "code": "C6",
+          "sequence": 5
+        },
+        {
+          "code": "A7",
+          "sequence": 6
+        },
+        {
+          "code": "B7",
+          "sequence": 7
+        },
+        {
+          "code": "C3",
+          "sequence": 8
+        },
+        {
+          "code": "C2",
+          "sequence": 9
+        },
+        {
+          "code": "C1",
+          "sequence": 10
+        },
+        {
+          "code": "B6",
+          "sequence": 11
+        },
+        {
+          "code": "B1",
+          "sequence": 12
+        },
+        {
+          "code": "A6",
+          "sequence": 13
+        },
+        {
+          "code": "A1",
+          "sequence": 14
+        },
+        {
+          "code": "A2",
+          "sequence": 15
+        }
+      ],
+      "id": "K1PPiR4"
+    },
+    {
+      "routeName": "Wester 1",
+      "stops": [
+        {
+          "code": "B2",
+          "sequence": 1
+        },
+        {
+          "code": "A5",
+          "sequence": 2
+        },
+        {
+          "code": "B4",
+          "sequence": 3
+        },
+        {
+          "code": "C1",
+          "sequence": 4
+        },
+        {
+          "code": "C2",
+          "sequence": 5
+        },
+        {
+          "code": "B8",
+          "sequence": 6
+        },
+        {
+          "code": "A9",
+          "sequence": 7
+        },
+        {
+          "code": "A8",
+          "sequence": 8
+        }
+      ],
+      "id": "35HEq_o"
+    },
+    {
+      "routeName": "West 2",
+      "stops": [
+        {
+          "code": "A1",
+          "sequence": 1
+        },
+        {
+          "code": "A2",
+          "sequence": 2
+        },
+        {
+          "code": "A3",
+          "sequence": 3
+        },
+        {
+          "code": "B2",
+          "sequence": 4
+        },
+        {
+          "code": "B3",
+          "sequence": 5
+        },
+        {
+          "code": "B4",
+          "sequence": 6
+        },
+        {
+          "code": "B5",
+          "sequence": 7
+        },
+        {
+          "code": "B6",
+          "sequence": 8
+        },
+        {
+          "code": "C1",
+          "sequence": 9
+        },
+        {
+          "code": "C2",
+          "sequence": 10
+        },
+        {
+          "code": "C4",
+          "sequence": 11
+        },
+        {
+          "code": "C5",
+          "sequence": 12
+        },
+        {
+          "code": "C6",
+          "sequence": 13
+        },
+        {
+          "code": "A7",
+          "sequence": 14
+        },
+        {
+          "code": "B7",
+          "sequence": 15
+        },
+        {
+          "code": "A8",
+          "sequence": 16
+        },
+        {
+          "code": "A9",
+          "sequence": 17
+        },
+        {
+          "code": "B8",
+          "sequence": 18
+        }
+      ],
+      "id": "U3a4eBh"
+    },
+    {
+      "routeName": "North 3",
+      "stops": [
+        {
+          "code": "A1",
+          "sequence": 1
+        },
+        {
+          "code": "A2",
+          "sequence": 2
+        },
+        {
+          "code": "A3",
+          "sequence": 3
+        },
+        {
+          "code": "A4",
+          "sequence": 4
+        }
+      ],
+      "id": "s3z1rOZ"
+    },
+    {
+      "routeName": "South 2",
+      "stops": [
+        {
+          "code": "C8",
+          "sequence": 1
+        },
+        {
+          "code": "A8",
+          "sequence": 2
+        },
+        {
+          "code": "C4",
+          "sequence": 3
+        },
+        {
+          "code": "B5",
+          "sequence": 4
+        },
+        {
+          "code": "A6",
+          "sequence": 5
+        },
+        {
+          "code": "A1",
+          "sequence": 6
+        },
+        {
+          "code": "A2",
+          "sequence": 7
+        },
+        {
+          "code": "B1",
+          "sequence": 8
+        },
+        {
+          "code": "B6",
+          "sequence": 9
+        },
+        {
+          "code": "C5",
+          "sequence": 10
+        },
+        {
+          "code": "A9",
+          "sequence": 11
+        }
+      ],
+      "id": "rhDvuHo"
+    },
+    {
+      "routeName": "North 4",
+      "stops": [
+        {
+          "code": "A1",
+          "sequence": 1
+        },
+        {
+          "code": "A2",
+          "sequence": 2
+        },
+        {
+          "code": "A3",
+          "sequence": 3
+        },
+        {
+          "code": "A4",
+          "sequence": 4
+        },
+        {
+          "code": "A5",
+          "sequence": 5
+        }
+      ],
+      "id": "jTtFo19"
+    }
+  ],
+  "Line": [
+    {
+      "lineNumber": "500",
+      "busRoutes": [
+        "North 2"
+      ],
+      "id": 1
+    },
+    {
+      "lineNumber": "501",
+      "busRoutes": [
+        "North 2",
+        "North 1"
+      ],
+      "id": 2
+    },
+    {
+      "lineNumber": "201",
+      "busRoutes": [
+        "South 1",
+        "North 1"
+      ],
+      "id": 3
+    },
+    {
+      "lineNumber": "400",
+      "busRoutes": [
+        "West 2",
+        "Wester 1"
+      ],
+      "id": 5
+    },
+    {
+      "lineNumber": "502",
+      "busRoutes": [
+        "South 1",
+        "North 3"
+      ],
+      "id": 7
+    },
+    {
+      "lineNumber": "505",
+      "busRoutes": [
+        "North 4",
+        "South 2"
+      ],
+      "id": 8
+    }
+  ],
+  "Bus": [
+    {
+      "route": "Wester 1",
+      "lineNumber": "400",
+      "arrivalId": 2,
+      "id": 10
+    },
+    {
+      "route": "North 2",
+      "lineNumber": "500",
+      "arrivalId": 3,
+      "id": 11
+    },
+    {
+      "route": "South 1",
+      "lineNumber": "201",
+      "arrivalId": 2,
+      "id": 12
+    },
+    {
+      "route": "North 2",
+      "lineNumber": "500",
+      "arrivalId": 1,
+      "id": 13
+    },
+    {
+      "route": "North 2",
+      "lineNumber": "500",
+      "arrivalId": 2,
+      "id": 14
+    },
+    {
+      "route": "North 4",
+      "lineNumber": "505",
+      "arrivalId": 1,
+      "id": 15
+    },
+    {
+      "route": "North 1",
+      "lineNumber": "201",
+      "arrivalId": 3,
+      "id": 16
+    }
+  ],
+  "TimeSchedule": [
+    {
+      "lineNumber": "500",
+      "routeName": "North 2",
+      "firstStopCode": "A1",
+      "arrive": [
+        {
+          "id": 1,
+          "arrive": {
+            "hours": "02",
+            "minutes": "10"
+          }
+        },
+        {
+          "id": 2,
+          "arrive": {
+            "hours": "03",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 3,
+          "arrive": {
+            "hours": "05",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 4,
+          "arrive": {
+            "hours": "07",
+            "minutes": "20"
+          }
+        },
+        {
+          "id": 5,
+          "arrive": {
+            "hours": "08",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 6,
+          "arrive": {
+            "hours": "11",
+            "minutes": "03"
+          }
+        },
+        {
+          "id": 7,
+          "arrive": {
+            "hours": "16",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 8,
+          "arrive": {
+            "hours": "16",
+            "minutes": "05"
+          }
+        },
+        {
+          "id": 9,
+          "arrive": {
+            "hours": "22",
+            "minutes": "02"
+          }
+        }
+      ],
+      "id": 1
+    },
+    {
+      "lineNumber": "400",
+      "routeName": "Wester 1",
+      "firstStopCode": "B2",
+      "arrive": [
+        {
+          "id": 1,
+          "arrive": {
+            "hours": "01",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 2,
+          "arrive": {
+            "hours": "01",
+            "minutes": "50"
+          }
+        },
+        {
+          "id": 3,
+          "arrive": {
+            "hours": "03",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 4,
+          "arrive": {
+            "hours": "04",
+            "minutes": "05"
+          }
+        },
+        {
+          "id": 5,
+          "arrive": {
+            "hours": "06",
+            "minutes": "20"
+          }
+        },
+        {
+          "id": 6,
+          "arrive": {
+            "hours": "06",
+            "minutes": "23"
+          }
+        },
+        {
+          "id": 7,
+          "arrive": {
+            "hours": "06",
+            "minutes": "30"
+          }
+        },
+        {
+          "id": 8,
+          "arrive": {
+            "hours": "06",
+            "minutes": "38"
+          }
+        },
+        {
+          "id": 9,
+          "arrive": {
+            "hours": "06",
+            "minutes": "40"
+          }
+        },
+        {
+          "id": 10,
+          "arrive": {
+            "hours": "06",
+            "minutes": "45"
+          }
+        },
+        {
+          "id": 11,
+          "arrive": {
+            "hours": "07",
+            "minutes": "20"
+          }
+        },
+        {
+          "id": 12,
+          "arrive": {
+            "hours": "07",
+            "minutes": "40"
+          }
+        },
+        {
+          "id": 13,
+          "arrive": {
+            "hours": "08",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 14,
+          "arrive": {
+            "hours": "08",
+            "minutes": "15"
+          }
+        },
+        {
+          "id": 15,
+          "arrive": {
+            "hours": "08",
+            "minutes": "45"
+          }
+        },
+        {
+          "id": 16,
+          "arrive": {
+            "hours": "09",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 17,
+          "arrive": {
+            "hours": "14",
+            "minutes": "00"
+          }
+        },
+        {
+          "id": 18,
+          "arrive": {
+            "hours": "15",
+            "minutes": "00"
+          }
+        }
+      ],
+      "id": 2
+    },
+    {
+      "lineNumber": "502",
+      "routeName": "North 3",
+      "firstStopCode": "A1",
+      "arrive": [
+        {
+          "id": 1,
+          "arrive": {
+            "hours": "04",
+            "minutes": "25"
+          }
+        },
+        {
+          "id": 2,
+          "arrive": {
+            "hours": "04",
+            "minutes": "55"
+          }
+        },
+        {
+          "id": 3,
+          "arrive": {
+            "hours": "05",
+            "minutes": "25"
+          }
+        }
+      ],
+      "id": 3
+    },
+    {
+      "lineNumber": "201",
+      "routeName": "South 1",
+      "firstStopCode": "A9",
+      "arrive": [
+        {
+          "id": 1,
+          "arrive": {
+            "hours": "04",
+            "minutes": "05"
+          }
+        },
+        {
+          "id": 2,
+          "arrive": {
+            "hours": "04",
+            "minutes": "55"
+          }
+        },
+        {
+          "id": 3,
+          "arrive": {
+            "hours": "07",
+            "minutes": "01"
+          }
+        }
+      ],
+      "id": 4
+    },
+    {
+      "lineNumber": "201",
+      "routeName": "North 1",
+      "firstStopCode": "A7",
+      "arrive": [
+        {
+          "id": 1,
+          "arrive": {
+            "hours": "07",
+            "minutes": "01"
+          }
+        },
+        {
+          "id": 2,
+          "arrive": {
+            "hours": "07",
+            "minutes": "09"
+          }
+        },
+        {
+          "id": 3,
+          "arrive": {
+            "hours": "07",
+            "minutes": "10"
+          }
+        },
+        {
+          "id": 4,
+          "arrive": {
+            "hours": "07",
+            "minutes": "23"
+          }
+        }
+      ],
+      "id": 5
+    },
+    {
+      "lineNumber": "505",
+      "routeName": "North 4",
+      "firstStopCode": "A1",
+      "arrive": [
+        {
+          "id": 1,
+          "arrive": {
+            "hours": "11",
+            "minutes": "11"
+          }
+        }
+      ],
+      "id": 6
+    }
+  ]
+}

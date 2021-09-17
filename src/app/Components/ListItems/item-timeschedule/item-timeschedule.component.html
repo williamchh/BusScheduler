@@ -1,0 +1,13 @@
+<!-- <p>Line {{ item.lineNumber}} {{ item.routeName}} {{ item.firstStopCode }} {{ item.arrive }}</p> -->
+
+<div  class="listItem">
+    <h3>
+        {{ item.lineNumber }} {{ item.routeName }} {{ item.firstStopCode }}
+    </h3>    
+    <div class="stopCodes">
+
+        <label *ngFor="let arr of item.arrive"  for="route">
+            {{ arr.arrive.hours }}:{{ arr.arrive.minutes }}
+        </label>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+<select (change)="onSelect($event)">
+    <option value="-1">--</option>
+    <option *ngFor="let item of dropdownItems" value="{{ item.code }}" >{{ item.code }}</option>
+</select>

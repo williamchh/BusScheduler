@@ -1,0 +1,26 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <p>Click Time to Add Bus</p>
+    <div *ngIf="bus">
+        <h3>
+            ADD Bus  {{ bus.route }} {{ bus.lineNumber }}-{{ bus.arrivalId }}
+        </h3> 
+    
+        <!-- submit button  -->
+        <input type="submit" value="Submit" class="btn-block btnSearch ">
+    </div>
+
+    <div *ngFor="let item of timeSchedules"  class="listItem">
+        <strong>{{ item.lineNumber }}  {{ item.routeName }}</strong>
+        First Stop <strong> {{ item.firstStopCode }}</strong> Arrive Times:
+        <div class="stopCodes">
+            <input 
+            type="button" 
+            class="btn" 
+            *ngFor="let arr of item.arrive"
+            (click)="selectRoute(item.routeName, item.lineNumber, arr.id)"
+                [ngStyle]="{background: '#00a775'}"  
+                value="{{ arr.arrive.hours }}:{{ arr.arrive.minutes }}" >
+
+        </div>
+    </div>
+</form>  

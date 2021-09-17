@@ -1,0 +1,39 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Line Name</label>
+        <input type="text" 
+        name="name" id="text" 
+        [(ngModel)]="lineNumber"
+        placeholder="Add Line Name" />
+    </div>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit" class="btn-block btnSearch">
+
+    <div class="stopCodes">
+        <input 
+            type="button" 
+            class="btn" 
+            [ngStyle]="{background: '#FFA3A3'}"  
+            *ngFor="let item of lineRoutes" 
+            (click)="delRoute(item)"
+            value="{{ item.routeName }}" >
+    </div>
+    
+
+    <!-- existing lines collection -->
+    <div class="stopCodes">
+        <input 
+            type="button" 
+            class="btn" 
+            [ngStyle]="{background: '#00a775'}"  
+            *ngFor="let item of busRoutes" 
+            (click)="addRoute(item)"
+            value="{{ item.routeName }}" >
+    </div>
+    <!-- <div class="form-control">
+        <label for="text">Stop</label>
+        <label for="text">New Stop</label>
+        <app-dropdown [dropdownItems]="dropdownItems"></app-dropdown>
+    </div> -->
+</form>  

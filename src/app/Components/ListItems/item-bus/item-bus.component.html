@@ -1,0 +1,9 @@
+<div  class="listItem" 
+    (dblclick)="delBus(item)"
+    (click)="getArrivalTime()"
+    >
+    
+    {{ item.route }} {{ item.lineNumber }}-{{ item.arrivalId }}
+    <!-- <input type="button" (click)="getArrivalTime()" value="Get Time" /> -->
+</div>
+

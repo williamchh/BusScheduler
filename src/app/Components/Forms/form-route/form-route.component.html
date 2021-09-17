@@ -1,0 +1,30 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Route Name</label>
+        <input type="text" 
+        name="name" id="text" 
+        [(ngModel)]="routeName"
+        placeholder="Add Route Name" />
+    </div>
+
+    <input type="submit" value="Submit" class="btn-block btnSearch ">
+    
+    <div class="stopCodes">
+        <input 
+            type="button" 
+            class="btn" 
+            [ngStyle]="{background: '#FFA3A3'}"  
+            *ngFor="let item of stops" 
+            (click)="delStop(item.sequence)"
+            value="{{ item.code }}" >
+    </div>
+    <div class="stopCodes">
+        <input 
+            type="button" 
+            class="btn" 
+            [ngStyle]="{background: '#00a775'}"  
+            *ngFor="let item of dropdownItems" 
+            (click)="addStop(item)"
+            value="{{ item.code }}" >
+    </div>
+</form>  

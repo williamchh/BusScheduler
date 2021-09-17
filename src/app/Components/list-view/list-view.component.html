@@ -1,0 +1,20 @@
+<p *ngIf=[messageVisible]>{{message}}</p>
+<hr />
+<hr />
+<div *ngIf="title === 'Bus'">
+    Click Bus to Get Arrival Time<br />
+    Double Click to Delete Bus
+    <p *ngIf="timeStr">Selected Bus First Stop Arrival Time <strong>{{ timeStr }}</strong></p>
+</div>
+<div *ngFor="let item of items" [ngSwitch]="title">
+    <div *ngSwitchCase="'Stop'" class="stop">
+        <app-item-stop [item]="item"></app-item-stop>
+    </div>
+    <div *ngSwitchCase="'Bus'" class="stop">
+        <app-item-bus [item]="item" (arrivalTime)="getArrivalTime($event)"></app-item-bus>
+    </div>
+    <app-item-route *ngSwitchCase="'Route'" [item]="item"></app-item-route>
+    <app-item-line *ngSwitchCase="'Line'" [item]="item"></app-item-line>
+    <app-item-timeschedule *ngSwitchCase="'Time Schedule'" [item]="item"></app-item-timeschedule>
+</div>
+

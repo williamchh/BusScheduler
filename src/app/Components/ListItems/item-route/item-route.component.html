@@ -1,0 +1,11 @@
+<div  class="listItem">
+    <h3>
+        {{ item.routeName }}
+    </h3>    
+    <div class="stops">
+
+        <label *ngFor="let stop of item.stops"  for="stop">
+            {{ stop.code }}
+        </label>
+    </div>
+</div>

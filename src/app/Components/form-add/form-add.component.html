@@ -1,0 +1,11 @@
+<div *ngIf="visible">
+    <h2>{{ title }} Form</h2>
+    <div [ngSwitch]="title">
+        <app-form-stop *ngSwitchCase="'Stop'"></app-form-stop>
+        <app-form-route *ngSwitchCase="'Route'"></app-form-route>
+        <app-form-line *ngSwitchCase="'Line'"></app-form-line>
+        <app-form-bus *ngSwitchCase="'Bus'"></app-form-bus>
+        <app-time-schedule *ngSwitchCase="'Time Schedule'"></app-time-schedule>
+    </div>
+      
+</div>

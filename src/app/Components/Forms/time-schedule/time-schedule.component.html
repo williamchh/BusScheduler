@@ -1,0 +1,30 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label>Arrival Time</label>
+        <h3 *ngIf="timeSchedule">{{ route }} {{ timeSchedule.firstStopCode }}</h3>
+        <input type="time" 
+        min="00:00"
+        max="23:59"
+        name="hours" id="text" 
+        [(ngModel)]="arrivalTime"
+        placeholder="Arrival hours..." />
+    </div>
+
+    <!-- submit button -->
+    <input type="submit" value="Submit" class="btn-block btnSearch ">
+
+    <!-- line  -->
+    <div class="stopCodes">
+        <div *ngFor="let item of lines"  class="listItem">{{ item.lineNumber }}
+
+            <input 
+                type="button" 
+                class="btn" 
+                *ngFor="let route of item.busRoutes"
+                [ngStyle]="{background: '#00a775'}"  
+                (click)="selectRoute(route, item.lineNumber)"
+                value="{{ route }}" >
+
+        </div>
+    </div>
+</form>  
